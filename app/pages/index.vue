@@ -1,10 +1,16 @@
 <template>
-  <div>
-    <h1>Página Inicial 🏠</h1>
-    <p>Bem-vindo ao meu projeto com Nuxt 3!</p>
+  <div class="flex h-screen bg-white">
+    <div className="w-[600px] bg-teal-700">
+    </div>
 
-    <NuxtLink to="/sobre" className='underline text-blue-500'>
-      Ir para Sobre
-    </NuxtLink>
+    <div class="relative flex-1">
+      <img 
+        src="@/assets/images/imagem-fundo-2.jpg" 
+        alt="fundo"
+        class="w-full h-full object-cover"
+      />
+
+      <div class="absolute inset-0 bg-gradient-to-r from-teal-700 to-transparent"></div>
+    </div>
   </div>
 </template>
