@@ -6,10 +6,22 @@
       
       <!-- Modal fixo -->
       <div class="fixed top-1/2 left-[100px] -translate-y-1/2">
-        <div class="h-[600px] w-[500px] bg-teal-500 py-20 px-40 shadow-lg rounded-lg">
-          <h3 class="text-2xl text-center font-bold mb-4">Sign In</h3>
-          <p class="mb-4 text-center">tela modal login</p>
-          <button class="px-4 py-2 bg-white text-teal-700 rounded">Sign In</button>
+        <div class="h-[600px] w-[500px] bg-teal-500 pt-12 pb-20 px-40 shadow-lg rounded-lg flex flex-col items-center justify-center">
+          <div>
+            <div className="mb-5 flex flex-col items-center justify-center">
+              <img 
+                src="@/assets/images/logo-png-2.png" 
+                alt="logo"
+                className="w-[120px] h-[120px]"
+              />
+            </div>
+            <h3 class="text-4xl text-center font-bold mb-4 text-white">Sign In</h3>
+            <label className="text-sm">E-mail:  </label>
+            <input className="bg-white mb-6 mt-px w-[320px] h-11 text-zinc-200 shadow-md rounded-md"></input>
+            <label className="text-sm">Password:  </label>
+            <input className="bg-white mb-6 mt-px w-[320px] h-11 text-zinc-200 shadow-md rounded-md"></input>
+            <button class="px-4 py-2 w-[320px] bg-amber-600 text-black rounded shadow-lg text-black">Sign In</button>
+          </div>
         </div>
       </div>
 
